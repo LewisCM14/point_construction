@@ -1,1 +1,1 @@
-web: gunicorn point_construction.wsgi.application
+web: gunicorn point_construction.wsgi:application
