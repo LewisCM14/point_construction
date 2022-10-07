@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # DEBUG = False on Heroku as no DEVELOPMENT variable
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['lewiscm-point-construction.herokuapp.com', '127.0.0.1',]
+ALLOWED_HOSTS = ['point-construction.herokuapp.com', '127.0.0.1',]
 
 
 # Application definition
