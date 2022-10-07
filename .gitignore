@@ -10,3 +10,4 @@ node_modules/
 *.sqlite3
 */pyc
 __pycache__
+requirements.txt
