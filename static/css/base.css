@@ -17,10 +17,6 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-footer {
-    margin-bottom: 65px;
-}
-
 /* Fonts */
 
 .yellow-text {
@@ -65,18 +61,6 @@ footer {
 
 .fw-600 {
     font-weight: 600;
-}
-
-.footer-header {
-    font-size: 20px;
-    margin-top: 65px;
-    margin-bottom: 65px;
-    line-height: 24px; 
-}
-
-.footer-text {
-    font-size: 16px;
-    line-height: 19px;
 }
 
 /* Background Colors */
