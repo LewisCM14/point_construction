@@ -38,9 +38,14 @@
 
         <title>Point Construction {% block extra_title %}{% endblock %}</title>
     </head>
-    <body>
-        {% block content %}
-        {% endblock %}
+    <body class="site">
+
+        <!-- Header Here -->
+
+        <main class="site-content bg-white">
+            {% block content %}
+            {% endblock %}
+        </main>
 
         {% include 'includes/footer.html' %}
 
