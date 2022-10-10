@@ -70,3 +70,13 @@ footer {
         height: 75px;
     }
 }
+
+@media screen and (max-width: 389px) {
+    .action-bar-text {
+        font-size: 14px;
+    }
+
+    .contact-us-button {
+        height: 50px;
+    }
+}
