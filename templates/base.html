@@ -25,8 +25,12 @@
             integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
             crossorigin="anonymous"
         />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
         <!-- Base CSS -->
-        <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
         {% endblock %} 
 
         {% block extra_css %} 
@@ -34,11 +38,16 @@
 
         <title>Point Construction {% block extra_title %}{% endblock %}</title>
     </head>
-    <body>
-        <h1>Hello, world!</h1>
+    <body class="site">
 
-        {% block content %}
-        {% endblock %}
+        <!-- Header Here -->
+
+        <main class="site-content bg-white">
+            {% block content %}
+            {% endblock %}
+        </main>
+
+        {% include 'includes/footer.html' %}
 
         <!-- JavaScript -->
         {% block core_js %}
