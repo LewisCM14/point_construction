@@ -10,4 +10,8 @@ header {
     header {
         height: 844px;
     }
+
+    .main-header-outer {
+        height: 52px;
+    }
 }

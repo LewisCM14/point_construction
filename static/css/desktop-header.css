@@ -1,0 +1,31 @@
+.main-header-inner {
+    padding-top: 60px;
+}
+
+.main-nav {
+    display: inline;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.brand-container {
+    padding-left: 60px;
+}
+
+.contact-container {
+    text-align: right;
+    padding-right: 58px;
+}
+
+.main-nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main-nav-link:hover {
+    color: #FFED00;
+}

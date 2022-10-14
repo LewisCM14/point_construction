@@ -1,0 +1,61 @@
+{% load static %} {% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/header.css' %}" />
+<link rel="stylesheet" href="{% static 'css/desktop-header.css' %}" />
+{% endblock %}
+
+<div class="container-fluid white-text">
+    <div class="row">
+        <div class="col-3 brand-container">
+            <p>BRAND</p>
+        </div>
+        <div class="col-6 nav-container">
+            <nav>
+                <ul class="main-nav d-flex justify-content-around">
+                    <li>
+                        <a
+                            href="#"
+                            aria-label="navigate to our services page"
+                            class="main-nav-link"
+                            >Our Services</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            aria-label="navigate to our about us page"
+                            class="main-nav-link"
+                            >About Us</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            aria-label="navigate to our team page"
+                            class="main-nav-link"
+                            >Our Team</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            aria-label="navigate to our projects page"
+                            class="main-nav-link"
+                            >Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            aria-label="navigate to our contact page"
+                            class="main-nav-link"
+                            >Contact Us</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-3 contact-container">
+            <p class="fw-600">Call us today: 0115 971 8908</p>
+        </div>
+    </div>
+</div>
