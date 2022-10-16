@@ -28,6 +28,13 @@
     color: #FFED00;
 }
 
+@media screen and (max-width: 887px) and (min-width: 768px) {
+    .hero-outer {
+        padding-left: 123px;
+        padding-right: 123px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .hero-outer {
         height: 792px;
@@ -45,5 +52,11 @@
         font-size: 24px;
         line-height: 29px;
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .top-text {
+        font-size: 25px;
     }
 }

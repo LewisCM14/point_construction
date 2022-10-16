@@ -10,6 +10,17 @@ header {
     padding-top: 60px;
 }
 
+.main-nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main-nav-link:hover {
+    color: #FFED00;
+}
+
 @media screen and (max-width: 1200px) {
     .main-header-inner {
         padding-top: 25px;
@@ -23,5 +34,9 @@ header {
 
     .main-header-outer {
         height: 52px;
+    }
+
+    .main-nav-link {
+        font-size: 11px;
     }
 }
