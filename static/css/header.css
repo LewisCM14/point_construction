@@ -6,6 +6,16 @@ header {
     height: 117px;
 }
 
+.main-header-inner {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-header-inner {
+        padding-top: 25px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     header {
         height: 844px;
