@@ -1,0 +1,62 @@
+.hero-outer {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    font-size: 54px;
+    line-height: 65px;
+    padding-left: 195px;
+    padding-right: 195px;
+    padding-top: 359px;
+}
+
+.bottom-text {
+    text-align: right;
+}
+
+.products-link-container {
+    margin-top: auto;
+}
+
+.products-link {
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 36px;
+    text-align: center;
+}
+
+.products-link:hover {
+    color: #FFED00;
+}
+
+@media screen and (max-width: 887px) and (min-width: 768px) {
+    .hero-outer {
+        padding-left: 123px;
+        padding-right: 123px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero-outer {
+        height: 792px;
+        padding-top: 287px;
+        padding-left: 52px;
+        padding-right: 48px;
+    }
+
+    .top-text {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .bottom-text {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .top-text {
+        font-size: 25px;
+    }
+}

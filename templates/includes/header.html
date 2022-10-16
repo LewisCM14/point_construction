@@ -1,0 +1,35 @@
+{% load static %} {% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/header.css' %}" />
+<link rel="stylesheet" href="{% static 'css/hero.css' %}" />
+{% endblock %}
+
+<header class="bg-navy">
+    <!-- Main Navigation -->
+    <section class="main-header-outer">
+        <div class="main-header-inner">
+            <!-- Desktop Header -->
+            <div class="d-none d-lg-none d-xl-block d-xxl-block">
+                {% include 'includes/desktop-header.html' %}
+            </div>
+            <!-- Mobile Header -->
+            <div class="d-block d-lg-block d-xl-none d-xxl-none">
+                {% include 'includes/mobile-header.html' %}
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section -->
+    <section class="hero-outer">
+        <div class="hero-text-outer white-text fw-300">
+            <p class="top-text">creating genuinely affordable housing</p>
+            <p class="bottom-text">making a difference to communities</p>
+        </div>
+        <div class="products-link-container d-flex justify-content-center">
+            <a
+                href="#"
+                aria-label="see our range of products"
+                class="products-link white-text fw-400"
+                >SEE OUR PRODUCTS</a
+            >
+        </div>
+    </section>
+</header>
