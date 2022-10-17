@@ -1,6 +1,63 @@
-{% extends "base.html" %}
-{% load static %}
+{% extends "base.html" %} 
+{% load static %} 
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/jumbo.css' %}" />
+{% endblock %} 
 
 {% block content %}
-<h1>Hello World</h1>
+<div class="container-fluid">
+    <!-- Intro -->
+    <section class="row intro-outer">
+        <div class="col intro-inner">
+            <h2 class="motto dark-yellow-text fw-500">
+                Construction with a purpose
+            </h2>
+            <h1 class="intro-heading black-text fw-600">
+                Welcome to Point Construction
+            </h1>
+            <p class="intro-text blue-text fw-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                luctus quam eu, senectus id. Tempus mauris mi vel adipiscing
+                tempus. Malesuada est convallis purus ut. Dignissim curabitur
+                eget dignissim tellus ut amet. Eleifend duis vestibulum maecenas
+                ac aliquam nunc. Magna aliquet auctor luctus risus pellentesque
+                blandit tincidunt auctor.
+            </p>
+            <p class="intro-text fw-400 grey-text">
+                Augue mattis posuere dolor in blandit egestas. Nunc, neque
+                ornare feugiat arcu at. At ac erat pretium aliquet et id
+                ultrices semper vel. Nunc accumsan amet justo, praesent sed. Sit
+                adipiscing morbi adipiscing tempor, orci, facilisis. Leo, lorem
+                a leo ultrices pellentesque malesuada sed mauris, nullam. Congue
+                viverra vulputate non aliquam, vestibulum vitae mattis velit et.
+            </p>
+            <p class="intro-text intro-text-final fw-400 grey-text">
+                Scelerisque ipsum non ultricies commodo amet adipiscing et.
+                Pellentesque hac proin et, duis nam facilisis ut porta turpis.
+                Molestie egestas praesent tempor enim aliquam. Porta facilisis
+                sed enim nec. Volutpat sollicitudin porta mauris sit egestas.
+                Egestas tortor, ornare nibh ridiculus facilisis eget.
+            </p>
+        </div>
+    </section>
+    <!-- Jumbotron -->
+    <section class="row jumbo-outer bg-danger">
+        <div class="col jumbo-inner"></div>
+    </section>
+    <!-- Final Text -->
+    <section class="row final-outer">
+        <div class="col final-inner">
+            <p class="final-text navy-text fw-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                luctus quam eu, senectus id. Tempus mauris mi vel adipiscing
+                tempus. Malesuada est convallis purus ut. Dignissim curabitur
+                eget dignissim tellus ut amet. Eleifend duis vestibulum maecenas
+                ac aliquam nunc. Magna aliquet auctor luctus risus pellentesque
+                blandit tincidunt auctor.
+            </p>
+        </div>
+    </section>
+</div>
 {% endblock %}
