@@ -1,9 +1,9 @@
 /* remove browser defaults */
 
 * {
-    padding: 0;
-    border: 0;
-    margin: 0;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
 }
 
 a {
@@ -35,7 +35,7 @@ body {
     color: #FFED00;
 }
 
-.catch-phrase-text {
+.dark-yellow-text {
     color: #C0B900;
 }
 

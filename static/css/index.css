@@ -1,0 +1,104 @@
+.motto {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 4px;
+}
+
+.intro-heading {
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.intro-text {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.intro-text-final {
+    margin-bottom: 0px;
+}
+
+.intro-outer {
+    margin-top: 154px;
+    margin-bottom: 154px;
+}
+
+.intro-inner {
+    padding-left: 466px;
+    padding-right: 466px;
+}
+
+.final-outer {
+    margin-top: 154px;
+    margin-bottom: 154px;
+}
+
+.final-inner {
+    padding-left: 466px;
+    padding-right: 466px;
+}
+
+.final-text {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1532px) and (min-width: 768px) {
+    .intro-inner {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .final-inner {
+        padding-left: 10rem;
+        padding-right: 10rem;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro-outer {
+        margin-top: 74px;
+        margin-bottom: 109px;
+    }
+
+    .intro-inner {
+        text-align: center;
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+
+    .motto {
+        margin-bottom: 19px;
+    }
+
+    .intro-heading {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 16px;
+    }
+
+    .intro-text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .final-outer {
+        margin-top: 74px;
+        margin-bottom: 74px;
+    }
+
+    .final-inner {
+        text-align: center;
+        padding-left: 23px;
+        padding-right: 38px;
+    }
+
+    .final-text {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
