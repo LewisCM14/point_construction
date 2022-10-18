@@ -1,3 +1,93 @@
 .jumbo-outer {
     height: 715.81px;
 }
+
+.jumbo-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.jumbo {
+    background-image: url('../media/park.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.jumbo-blur-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.jumbo-blur-left {
+    background-image: url('../media/park.jpg');
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.jumbo-blur-right {
+    background-image: url('../media/park.jpg');
+    background-position: left;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 1199px) {
+    .jumbo {
+        background-size: contain;
+    }
+
+    .jumbo-outer {
+        height: 645px;
+    }
+
+    .jumbo-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 933px) {
+    .jumbo-outer {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .jumbo-outer {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .jumbo-outer {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jumbo-outer {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .jumbo-outer {
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 388px) {
+    .jumbo-outer {
+        height: 13rem;
+    }
+}
